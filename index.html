@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+  <title>Weather</title>
+</head>
+<body>
+  <div id="searchContainer">
+    <input type="text" id="search" placeholder="Search Location" onkeyup="searchFunc(value)">
+  </div>
+  <div class="gifBackground">
+    <div class="json-info">
+      <ul class="json">
+        <li class="cast">Cast: </li>
+        <button class="toggle-temp" onclick="toggleTemp()">Toggle</button>
+        <li class="temper">Temperature: </li>
+        <li class="location">Location: </li>
+      </ul>
+    <img src="#" alt="">
+  </div>
+</body>
+</html>
